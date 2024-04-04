@@ -7,7 +7,8 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #00e1ff;
-  color: #080f58;
+  color: #020b6d;
+  font-weight: 500;
   line-height: 1.6;
 }
 
@@ -53,6 +54,7 @@ section {
   /* height: 100vh; */
   margin: 40px 0;
   padding: 0 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 section h2 {
@@ -65,9 +67,8 @@ section h2 {
 
 section p {
   font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-family: "Times New Roman", Times, serif;
   color: rgba(41, 46, 104, 0.849);
+  font-weight: 600;
 }
 
 #home {
@@ -93,44 +94,22 @@ section p {
   text-shadow: 1px 1px 10px rgb(0, 4, 1);
 }
 
-#home img {
-  width: 300px;
-}
-
-#family {
+#biography {
   text-align: center;
 }
 
-#family img {
+#biography img {
   width: 650px;
   height: 300px;
   margin: 20px;
   border-radius: 5px;
-  box-shadow: 3px 3px 10px black;
+  box-shadow: 5px 5px 10px rgb(60, 59, 59);
 }
 
-#hobbies {
+#upcoming h2 {
   text-align: center;
-  margin-top: 100px;
 }
 
-#hobbies p {
-  width: 1000px;
-  margin: 0 auto;
-  text-align: left;
-  font-family: "Times New Roman", Times, serif;
-  color: #080f58;
-}
-
-#hobbies div {
-  margin-top: 30px;
-}
-
-#hobbies img {
-  width: 350px;
-  height: 300px;
-  margin: 20px;
-}
 
 #favorite-movie {
   width: 1000px;
